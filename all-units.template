@@ -1,0 +1,324 @@
+
+
+
+[core]
+strictLevel: 0
+mass: ${ int(core.radius * 0.2) * core.radius * 30 + 100}
+[graphics]
+image_back_always_use_full_image: true
+
+[attack]
+maxAttackRange: 0
+[global_resource_钍原石]
+displayName: 钍原石
+displayNameShort: 钍原石
+displayColor: #FF2AE0FF
+priority: 1
+hidden: false
+iconImage: ROOT:/通用特效/钍原石.png
+
+[global_resource_钍]
+displayName: 钍
+displayNameShort: 钍
+displayColor: #ff00ff
+priority: 1
+hidden: false
+iconImage: ROOT:/通用特效/钍.png
+
+[global_resource_蓝晶]
+displayName: 蓝晶
+displayNameShort: 蓝晶
+displayColor: #FF39FFFF
+priority: 1
+hidden: false
+iconImage: ROOT:/通用特效/蓝晶.png
+
+[global_resource_wrj1]
+displayName: 无人机1
+displayNameShort: 无人机1
+displayColor: #ff00ff
+#priority:1
+hidden: true
+
+
+[global_resource_wrj2]
+displayName: 无人机2
+displayNameShort: 无人机2
+displayColor: #ff00ff
+#priority:1
+hidden: true
+
+
+[global_resource_wrj3]
+displayName: 无人机3
+displayNameShort: 无人机3
+displayColor: #ff00ff
+#priority:1
+hidden: true
+
+
+[global_resource_wrj4]
+displayName: 无人机4
+displayNameShort: 无人机4
+displayColor: #ff00ff
+#priority:1
+hidden: true
+
+
+[global_resource_科技]
+displayName: 科技
+displayNameShort: 科技
+displayColor: #ff00ff
+#priority:1
+hidden: true
+
+
+[global_resource_科技1]
+displayName: 科技1
+displayNameShort: 科技1
+displayColor: #ff00ff
+#priority:1
+hidden: true
+
+
+[global_resource_威胁点数]
+displayName: 威胁点数
+displayNameShort: 威胁点数
+displayColor: #FFFF1200
+priority: 1
+hidden: false
+iconImage: ROOT:/通用特效/威胁点.png
+
+[resource_淦]
+displayName: 淦
+# displayNameShort:
+hidden: true
+# 这个应该写到all-unit里
+
+
+[global_resource_awz]
+displayName: 暗物质
+displayNameShort: 暗物质
+displayColor: #FF9D00FF
+priority: 1
+hidden: false
+
+
+[global_resource_awz2]
+displayName: 暗物质总量
+displayNameShort: 暗物质总量
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+
+
+[global_resource_hy]
+displayName: 灰影纳米机械
+displayNameShort: 灰影纳米机械
+displayColor: #FF00A54D
+priority: 1
+hidden: false
+[global_resource_打折]
+displayName: 打折
+displayNameShort: 打折
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+
+[resource_sz]
+displayName: 衰解
+displayNameShort: 衰解
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+
+
+[resource_JB]
+displayName: JB
+displayNameShort: JB
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+
+
+[resource_JSC]
+displayName: JSC
+displayNameShort: JSC
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+
+
+[resource_zh]
+displayName: zh
+displayNameShort: zh
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+
+
+[resource_xk]
+displayName: ↯
+displayNameShort: ↯
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+
+
+[global_resource_cs]
+displayName: 传送能量
+displayNameShort: 传送能量
+displayColor: #FFFFFF00
+priority: 1
+iconImage: ROOT:/太空浪人/单位特效/传送.png
+
+hidden: false
+
+
+[global_resource_tjp]
+displayName: 可用的停机坪
+displayNameShort: 可用的停机坪
+displayColor: #FFFFFF00
+priority: 1
+hidden: false
+iconImage: ROOT:/通用特效/停机坪.png
+
+
+[global_resource_bj]
+displayName: 补给
+displayNameShort: 补给
+displayColor:#FF39FFFF
+priority: 1
+hidden: false
+iconImage: ROOT:/通用特效/补给.png
+
+[global_resource_ry]
+displayName: AI算力冗余
+displayNameShort: AI算力冗余
+displayColor:#FF99FF2D
+priority: 1
+hidden: false
+iconImage: ROOT:/通用特效/AI算力冗余.png
+
+
+[global_resource_答辩]
+displayName: 答辩
+displayNameShort: 答辩
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+
+[resource_兴奋剂]
+displayName: 兴奋剂
+displayNameShort: 兴奋剂
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+[global_resource_零件]
+displayName: 零件
+displayNameShort: 零件
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+
+[resource_冷却]
+displayName:冷却
+displayNameShort: 冷却
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+[resource_燃烧]
+displayName: 燃烧
+displayNameShort: 燃烧
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+[resource_加血保险]
+#创世纪先进材料用的
+displayName: 加血保险
+displayNameShort: 加血保险
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+
+[global_resource_生儿子]
+#黑寡妇之耀生儿子用的
+displayName: 生儿子
+displayNameShort: 生儿子
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+[global_resource_复仇女神零件]
+#复仇女神零件
+displayName: 零件库存
+displayNameShort: 零件库存
+displayColor: #FF9D00FF
+priority: 1
+hidden: true
+
+[global_resource_浮游炮]
+displayName: 浮游炮
+displayNameShort: 浮游炮
+displayColor: #ff00ff
+#priority:1
+hidden: true
+[template_爆炸]
+mutator21_ifUnitWithTags: B
+mutator21_directDamageMultiplier: 0.6
+mutator21_areaDamageMultiplier: 0.6
+mutator22_ifUnitWithTags: BB
+mutator22_directDamageMultiplier: 0.7
+mutator22_areaDamageMultiplier: 0.7
+mutator23_ifUnitWithTags: BBB
+mutator23_directDamageMultiplier: 0.85
+mutator23_areaDamageMultiplier: 0.85
+
+mutator30_ifUnitWithTags: 轻型掩护
+mutator30_directDamageMultiplier: 0.5
+mutator30_areaDamageMultiplier: 0.5
+mutator31_ifUnitWithTags: 重型掩护
+mutator31_directDamageMultiplier: 0.25
+mutator31_areaDamageMultiplier: 0.25
+targetGround_includeTargetHeight:true
+[template_动能]
+mutator24_ifUnitWithTags: D
+mutator24_directDamageMultiplier: 0.6
+mutator24_areaDamageMultiplier: 0.6
+mutator25_ifUnitWithTags: DD
+mutator25_directDamageMultiplier: 0.7
+mutator25_areaDamageMultiplier: 0.7
+mutator26_ifUnitWithTags: DDD
+mutator26_directDamageMultiplier: 0.85
+mutator26_areaDamageMultiplier: 0.85
+
+mutator30_ifUnitWithTags: 轻型掩护
+mutator30_directDamageMultiplier: 0.5
+mutator30_areaDamageMultiplier: 0.5
+mutator31_ifUnitWithTags: 重型掩护
+mutator31_directDamageMultiplier: 0.25
+mutator31_areaDamageMultiplier: 0.25
+targetGround_includeTargetHeight:true
+[template_能源]
+mutator27_ifUnitWithTags: N
+mutator27_directDamageMultiplier: 0.6
+mutator27_areaDamageMultiplier: 0.6
+mutator28_ifUnitWithTags: NN
+mutator28_directDamageMultiplier: 0.7
+mutator28_areaDamageMultiplier: 0.7
+mutator29_ifUnitWithTags: NNN
+mutator29_directDamageMultiplier: 0.85
+mutator29_areaDamageMultiplier: 0.85
+
+mutator30_ifUnitWithTags: 轻型掩护
+mutator30_directDamageMultiplier: 0.5
+mutator30_areaDamageMultiplier: 0.5
+mutator31_ifUnitWithTags: 重型掩护
+mutator31_directDamageMultiplier: 0.25
+mutator31_areaDamageMultiplier: 0.25
+targetGround_includeTargetHeight:true
+
+[template_战略武器]
+mutator1_ifUnitWithTags:战略武器抗性
+mutator1_directDamageMultiplier: 0.6
+mutator1_areaDamageMultiplier: 0.6
+targetGround_includeTargetHeight:true
